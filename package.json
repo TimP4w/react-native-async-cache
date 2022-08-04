@@ -1,0 +1,51 @@
+{
+  "name": "@timp4w/react-native-async-cache",
+  "version": "0.0.1-alpha",
+  "description": "A simple and extensible library to cache methods results via asyncstorage-like API backend",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prebuild": "yarn lint && yarn test",
+    "build": "rm -rf dist && tsc",
+    "test": "jest",
+    "cibuild": "rm -rf dist && tsc",
+    "tarball": "yarn build && npm pack && mv timp4w-react-native-async-cache-* examples/cache.tgz",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@react-native-async-storage/async-storage": "1.17.7",
+    "@types/jest": "28.1.3",
+    "@typescript-eslint/eslint-plugin": "5.32.0",
+    "@typescript-eslint/parser": "5.32.0",
+    "eslint": "8.21.0",
+    "jest": "27.4.5",
+    "ts-jest": "27.1.2",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "reflect-metadata": "0.1.13"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimP4w/react-native-async-cache.git"
+  },
+  "keywords": [
+    "cache",
+    "asyncstorage",
+    "react-native",
+    "lru",
+    "async"
+  ],
+  "author": "Timucin Besken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimP4w/react-native-async-cache/issues"
+  },
+  "homepage": "https://github.com/TimP4w/react-native-async-cache#readme"
+}

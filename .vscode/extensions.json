@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "redhat.fabric8-analytics",
+    "dbaeumer.vscode-eslint",
+    "orta.vscode-jest",
+    "firsttris.vscode-jest-runner",
+    "pmneo.tsimporter",
+    "gamunu.vscode-yarn",
+    "carlosjs23.vscode-yarn-script",
+    "christian-kohler.npm-intellisense",
+    "DavidAnson.vscode-markdownlint"
+  ]
+}
