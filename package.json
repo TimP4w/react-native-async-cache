@@ -1,6 +1,6 @@
 {
   "name": "@timp4w/react-native-async-cache",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1",
   "description": "A simple and extensible library to cache methods results via asyncstorage-like API backend",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
