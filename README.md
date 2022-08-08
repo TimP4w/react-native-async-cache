@@ -18,7 +18,7 @@ $ yarn add @timp4w/react-native-async-cache
 
 # Setup
 
-## React Native (JS)
+## Javascript project
 
 ```bash
 $ yarn add -D @babel/plugin-proposal-decorators
@@ -38,13 +38,9 @@ import 'reflect-metadata';
 ...
 ```
 
-## React Native (TS)
+## Typescript project
 
-```bash
-$ yarn add reflect-metadata
-```
-
-Then modify your `tsconfig.json` file to include the following:
+Additionally to the javascript setup you need modify your `tsconfig.json` file to include the following:
 
 ```json
 {
